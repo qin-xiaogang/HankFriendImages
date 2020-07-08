@@ -15,5 +15,5 @@ Pod::Spec.new do |spec|
   spec.authors      = { 'Hank-qin' => 'qinxiaogang@aliyun.com' }
   spec.source       = { :git => "https://github.com/qin-xiaogang/HankFriendImages.git", :tag => "#{spec.version}" }
   spec.source_files = 'Hank/**/*.{h,m}'
-  spec.framework  = "UIKit"
+  spec.framework  = "SystemConfiguration"
 end
