@@ -8,10 +8,11 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "HankFriendImage"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "Send Images"
   spec.homepage     = "https://github.com/qin-xiaogang/HankFriendImages"
   spec.license      = "MIT"
+  spec.authors      = { 'Hank-qin' => 'qinxiaogang@aliyun.com' }
   spec.source       = { :git => "https://github.com/qin-xiaogang/HankFriendImages.git", :tag => "#{spec.version}" }
   spec.source_files = 'Hank/**/*.{h,m}'
   spec.framework  = "UIKit"
