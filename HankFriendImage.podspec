@@ -16,6 +16,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/qin-xiaogang/HankFriendImages.git", :tag => "#{spec.version}" }
   spec.source_files = 'Hank/**/*.{h,m}'
   spec.framework  = "SystemConfiguration"
-  spec.dependency 'Masonry', 'QBImagePickerController'
   spec.platform = :ios
 end
